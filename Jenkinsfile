@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh './Jenkins/build.sh'
+        sh './jenkins/build.sh'
       }
     }
   }
